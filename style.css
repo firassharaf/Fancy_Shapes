@@ -1,0 +1,39 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 10px;
+}
+
+.task-one p {
+    background-color: rgb(29, 138, 228);
+}
+.task-one p::before {
+    content:'Once upon a time... ';
+    background-color: fuchsia;
+    color: blue;
+    font-weight: bold;
+}
+
+.task-one p::after {
+    content:'... The end.';
+    background-color:fuchsia;
+    color: blue;
+    font-weight: bold;
+}
+.task-two img{
+   
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.task-three{
+    background: white;
+   
+    position: absolute;
+    transform: rotate(180deg);
+
+}
+
